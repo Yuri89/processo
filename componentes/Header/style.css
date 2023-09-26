@@ -1,0 +1,38 @@
+.headerMain {}
+
+.navHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 100px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.653);
+}
+
+.linksBar ol {
+    display: flex;
+    gap: 7vw;
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+
+.navHeader img {
+    width: 10vw;
+}
+
+.buttonBar{
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menuBurger {
+    display: none;
+}
+
+@media screen and (max-width: 300px) {}
